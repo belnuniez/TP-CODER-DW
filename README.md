@@ -12,7 +12,7 @@ Se trata de una página web enfocada en la presentación de muebles modernos y e
   
 ## 🚀 **Cómo Verlo en Acción**  
 Puedes visitar el proyecto en vivo a través de **GitHub Pages**:  
-🔗   
+🔗 https://belnuniez.github.io/TP-CODER-DW/
 
 ## 🎯 **Objetivo del Proyecto**  
 Este proyecto tiene como finalidad aplicar los conocimientos adquiridos en el curso de Coderhouse sobre HTML y CSS, creando una web atractiva y funcional sin el uso de JavaScript ni frameworks adicionales.  
