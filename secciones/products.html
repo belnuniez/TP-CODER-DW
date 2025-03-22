@@ -65,71 +65,153 @@
 
                 <!-- Titulo -->
                 <div class="hero-text">
-                    <h1 class="hero-title">Categories</h1>
+                    <h1 class="hero-title">Products</h1>
                 </div>
 
             </div>
         </div>
     </header>
 
-    <section class="featured-categories">
-        <h2 class="section-title container my-5">Featured Categories</h2>
+    
+    <!-- Section tarjetas productos -->
+    <section class="productos-cards">
 
-        <!-- Contenedor del carrusel -->
-        <div class="carousel">
-            
-            <!-- Botón Izquierdo -->
-            <button class="carousel-btn left"><i class="fa-solid fa-arrow-left"></i></button>
-
-            <!-- Carrusel de categorías -->
-            <div class="carousel-track">
-                <div class="category">
-                    <div class="image-container">
-                        <img src="../imagenes/categorias-1.png" alt="Side Table">
-                    </div>
-                    <h3>Side Table</h3>
-                    <p>Discover 120 Products</p>
-                </div>
-
-                <div class="category">
-                    <div class="image-container">
-                        <img src="../imagenes/categorias-2.png" alt="Arm Chair">
-                    </div>
-                    <h3>Arm Chair</h3>
-                    <p>Discover 45 Products</p>
-                </div>
-
-                <div class="category">
-                    <div class="image-container">
-                        <img src="../imagenes/categorias-3.png" alt="Dinner Table">
-                    </div>
-                    <h3>Dinner Table</h3>
-                    <p>Discover 120 Products</p>
-                </div>
-
-                <div class="category">
-                    <div class="image-container">
-                        <img src="../imagenes/categorias-4.png" alt="Pillow">
-                    </div>
-                    <h3>Pillow</h3>
-                    <p>Discover 150 Products</p>
-                </div>
-
-                <div class="category">
-                    <div class="image-container">
-                        <img src="../imagenes/categorias-5.png" alt="Wall Clock">
-                    </div>
-                    <h3>Wall Clock</h3>
-                    <p>Discover 40 Products</p>
-                </div>
+        <div class="container my-5">
+            <h2 class="section-title">Trending products for you!</h2>
+        
+            <!-- Filtros -->
+            <div class="filters">
+                <a href="#" class="active">Living Room</a>
+                <a href="#">Bed Room</a>
+                <a href="#">Dining Room</a>
+                <a href="#">Outdoor</a>
+                <a href="#">Indoor</a>
             </div>
+        
+            <!-- Sección de productos -->
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <span class="discount">-20%</span>
+                        <i class="fa-regular fa-heart fav-icon"></i>
+                        <img src="../imagenes/productos-1.png" alt="Luxe Lounge Sofa">
+                        <div class="product-info">
 
-            <!-- Botón Derecho -->
-            <button class="carousel-btn right"><i class="fa-solid fa-arrow-right"></i></button>
+                            <div class="info-left">
+                                <h3>Luxe Lounge Sofa</h3>
+                                <p>$235.99</p>
+                            </div>
+                            <div class="info-right">
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <span class="discount">-10%</span>
+                        <i class="fa-regular fa-heart fav-icon"></i>
+                        <img src="../imagenes/productos-2.png" alt="Comfort Haven Sofa">
+                        <div class="product-info">
+
+                            <div class="info-left">
+                                <h3>Comfort Haven Sofa</h3>
+                                <p>$250.99</p>
+                            </div>
+                            <div class="info-right">
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <span class="discount">-25%</span>
+                        <i class="fa-regular fa-heart fav-icon"></i>
+                        <img src="../imagenes/productos-3.png" alt="Round Wicker Chair">
+                        <div class="product-info">
+
+                            <div class="info-left">
+                                <h3>Round Wicker Chair</h3>
+                                <p>$180.99</p>
+                            </div>
+                            <div class="info-right">
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 4 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <span class="discount">-10%</span>
+                        <i class="fa-regular fa-heart fav-icon"></i>
+                        <img src="../imagenes/productos-4.png" alt="Teal ottoman">
+                        <div class="product-info">
+
+                            <div class="info-left">
+                                <h3>Teal ottoman</h3>
+                                <p>$125.99</p>
+                            </div>
+                            <div class="info-right">
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 5 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <span class="discount">-30%</span>
+                        <i class="fa-regular fa-heart fav-icon"></i>
+                        <img src="../imagenes/productos-5.png" alt="White fleece throw pillow">
+                        <div class="product-info">
+
+                            <div class="info-left">
+                                <h3>White fleece throw pillow</h3>
+                                <p>$99.99</p>
+                            </div>
+                            <div class="info-right"> 
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 6 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <span class="discount">-20%</span>
+                        <i class="fa-regular fa-heart fav-icon"></i>
+                        <img src="../imagenes/productos-6.png" alt="Pillows on bed set">
+                        <div class="product-info">
+
+                            <div class="info-left">
+                                <h3>Pillows on bed set</h3>
+                                <p>$999.99</p>
+                            </div>
+                            <div class="info-right">
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Agregar más cards hasta completar las 12 -->
+            </div>
         </div>
 
     </section>
-    
+
     <!-- Footer -->
     <footer class="footer mt-5">
         <div class="container">
