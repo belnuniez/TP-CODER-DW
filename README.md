@@ -2,7 +2,7 @@
 Estoy tratando de solucionar lo de git-pages porque no me está cargando bien el css, hay algún error. Si no llego a arreglarlo antes de que me corrigan, porfavor bajen el archivo ZIP del proyecto y desde el visual se debería ver bien.  
 
 
-
+# ----------------------------------------------------------------------------------------------------------------------
 
 🚀 ¡Bienvenido/a a *FurniFlex*! Este es un proyecto desarrollado para el curso de **Desarrollo Web** en **Coderhouse**.  
 Se trata de una página web enfocada en la presentación de muebles modernos y elegantes, con un diseño limpio y atractivo.  
